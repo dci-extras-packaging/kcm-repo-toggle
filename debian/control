@@ -1,0 +1,20 @@
+Source: kcm-repo-toggle
+Section: kde
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>= 9),
+               extra-cmake-modules,
+               libkf5auth-dev,
+               libkf5configwidgets-dev,
+               libkf5i18n-dev,
+               libqapt-dev,
+               pkg-kde-config,
+               qt5base-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/ds9-extras/kcm-repo-toggle
+
+Package: kde-config-repo-toggle
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE Configuration module for toggling repos
+ This package contains a KDE configuration module for toggling repos

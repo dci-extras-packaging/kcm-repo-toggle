@@ -1,0 +1,5 @@
+kcm-repo-toggle (0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Rohan Garg <rohan@kde.org>  Mon, 06 Mar 2017 12:33:30 +0100
