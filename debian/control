@@ -9,8 +9,8 @@ Build-Depends: debhelper (>= 9),
                libkf5configwidgets-dev,
                libkf5i18n-dev,
                libqapt-dev,
-               pkg-kde-config,
-               qt5base-dev
+               pkg-kde-tools,
+               qtbase5-dev
 Standards-Version: 3.9.8
 Homepage: https://github.com/ds9-extras/kcm-repo-toggle
 
