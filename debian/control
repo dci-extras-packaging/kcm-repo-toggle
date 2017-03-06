@@ -2,7 +2,8 @@ Source: kcm-repo-toggle
 Section: kde
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: cmake,
+               debhelper (>= 9),
                extra-cmake-modules,
                gettext,
                libkf5auth-dev,
